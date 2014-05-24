@@ -35,7 +35,7 @@ module ZXing
     def decode *args
       begin
         p args
-        raise "hell"
+#        raise "hell" <-- Srsly?
         decode!(*args)
       rescue Exception => e
         nil
